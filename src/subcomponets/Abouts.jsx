@@ -21,7 +21,7 @@ const Abouts = () => {
      ))
  }
   return (
-    <div className='lg:absolute relative lg:border lg:right-10 lg:top-14  lg:w-[55rem]   rounded-sm lg:mx-auto lg:shadow-md z-[2] bg-white'>
+    <div className='lg:absolute relative lg:border lg:right-10 lg:top-14  lg:w-[55rem]   rounded-sm lg:mx-auto lg:shadow-md z-[2] bg-white text-black'>
         <div className='lg:p-10'>
             <div className='flex lg:justify-between max-sm:flex-col gap-x-2'>
                  <div className='flex flex-col lg:gap-y-2 lg:border-r-2 w-full lg:w-[50%] text-start px-5'>
