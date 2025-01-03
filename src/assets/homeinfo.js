@@ -6,6 +6,11 @@ import webimage from '../assets/image/web.jpg'
 import appimage from "../assets/image/app.jpg"
 import aiimage from "../assets/image/ai.webp"
 import cloudimage from "../assets/image/cloud.jpg"
+import { MdOutlineDesignServices } from "react-icons/md";
+import { GoProjectRoadmap } from "react-icons/go";
+import { TbTruckDelivery } from "react-icons/tb";
+import { GiArcheryTarget } from "react-icons/gi";
+
 export const serviceInfo = [
     {
         icon:CgWebsite,
@@ -82,4 +87,39 @@ export const successOfweblogiance = [
         suffix:"%",
         duration:1
      },
+]
+
+export const workflow = [
+     {
+        step:"step-1",
+        process:"We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.",
+        icons:GiArcheryTarget,
+        title:"Examine",
+        color:"bg-[#1998E0]",
+        textcolor:"text-[#1998E0]"
+     },
+     {
+        step:"step-2",
+        process:"Our design approach is to simplify. We embrace the joy in creating something unique that is easy for end users.",
+        icons:MdOutlineDesignServices,
+        title:"Design",
+        color:"bg-[#FFA500]",
+        textcolor:"text-[#FFA500]"
+     },
+     {
+        step:"step-3",
+        process:"Using modern technologies, we build with efficiency and skill, creating flexible and scalable business-driven solutions.",
+        icons:GoProjectRoadmap,
+        title:"Build",
+        color:"bg-[#16C47F]",
+        textcolor:"text-[#16C47F]"
+     },
+     {
+        step:"step-4",
+        process:"We take an iterative approach to both our work and our practice, always looking for ways to improve what we do.",
+        icons:TbTruckDelivery,
+        title:"Deliver",
+        color:"bg-[#F93827]",
+        textcolor:"text-[#F93827]"
+     }
 ]

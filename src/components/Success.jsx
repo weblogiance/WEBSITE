@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { successOfweblogiance } from '../assets/homeinfo'
-import about from "../assets/image/about.png"
+import about from "../assets/image/about.webp"
 import way from '../assets/image/success.jpg'
-import square from "../assets/image/square.webp"
+import square2 from "../assets/image/square2.webp"
 import mutisquare from "../assets/image/mutiplesquare.webp"
 import square1 from "../assets/image/square1.webp"
 import CountUp from 'react-countup';
@@ -12,9 +12,9 @@ const Success = () => {
           <div className=' mt-10 mb-32'>
                <div className=' w-11/12 flex  flex-col mx-auto lg:gap-y-24 '>
                     <div className='flex flex-col justify-between items-center mx-auto lg:flex-row-reverse gap-x-2 p-5 w-full'>
-                         <div className=' relative'>
-                              <img src={about} alt="" className=' max-w-[400px] lg:max-w-[600px] ' />
-                              <div className=' absolute -bottom-[5rem] right-0 -z-[1] rotate-[45deg]'>
+                         <div className=' relative w-[60%] '>
+                              <img src={about} alt="" className=' max-w-[400px] lg:max-w-[800px]' />
+                              <div className=' absolute -bottom-[4rem] right-24 -z-[1] rotate-[45deg]'>
                                    <img src={square1} alt="" width={50} />
                               </div>
                          </div>
@@ -34,18 +34,18 @@ const Success = () => {
                               </span>
                          </div>
                     </div>
-                    <div className=' relative flex lg:justify-between max-sm:flex-col w-full  items-center mx-auto p-2 gap-x-28  '>
+                    <div className=' relative flex lg:justify-between max-sm:flex-col w-full  items-center mx-auto  gap-x-28  '>
                          {/* image section  */}
                          <div className='  rounded-xl overflow-hidden w-full max-w-[450px] lg:max-w-[640px] '>
                               <img src={way} alt="" className=' max-w-[450px] lg:max-w-[700px] ' />
-                              <div className=' absolute -bottom-30 -z-[1] rotate-12'>
-                                  <img src={square} alt="" className='w-[240px]' />
+                              <div className=' absolute -bottom-20 -z-[1] rotate-12'>
+                                  <img src={square2} alt="" className='w-[40px]' />
                               </div>
                          </div>
                          {/* completed projecte of company   */}
-                         <div className='flex flex-col w-full'>
+                         <div className='flex flex-col w-full -mt-8'>
                               <div className=' flex flex-col gap-y-5'>
-                                   <h1 className=' text-center lg:text-4xl text-2xl mt-5 font-semibold '>Our Comapany <span className=' text-[#1998E0] underline underline-offset-8'>success</span></h1>
+                                   <h1 className=' text-center lg:text-4xl text-2xl font-semibold '>Our Comapany <span className=' text-[#1998E0] underline underline-offset-8'>success</span></h1>
                                    <p className=' text-xs lg:text-sm lg:w-[80%] w-full mb-3 text-center mx-auto tracking-wide text-zinc-700 font-semibold'>software build wasn't built in a day, but with consistent effort, strategic planning, and a dedication to quality service, our company has steadily grown to become a leader in the industry.</p>
                               </div>
                               <div className=' grid lg:grid-cols-2 max-sm:mt-10 mt-2 gap-y-2 gap-x-2 text-white w-full items-center '>

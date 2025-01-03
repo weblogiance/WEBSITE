@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link to="/">logo</Link>
                 <div className='relative max-sm:group '>
                     <div className=' lg:hidden'><IoReorderThreeSharp size={55} onClick={()=>setshow(true)}/></div>
-                    <nav className={`max-sm:fixed max-sm:h-screen lg:relative flex flex-col top-0 lg:w-full  max-sm:shadow-md transition-all duration-300 ease-in-out  p-5 gap-y-7 mx-auto ${show ? "block motion-translate-x-in-[200%] motion-translate-y-in-[-1%] motion-blur-in-[10px] motion-duration-[0.59s] motion-delay-[0.16s] motion-duration-[0.60s]/translate motion-delay-[0.05s]/translate":"hidden"} lg:block rounded-sm right-0 w-[80%]  `}>
+                    <nav className={`max-sm:fixed max-sm:h-screen lg:relative flex flex-col top-0 lg:w-full  max-sm:shadow-md transition-all max-sm:bg-white lg:text-white text-black duration-300 ease-in-out  p-5 gap-y-7 mx-auto ${show ? "block motion-translate-x-in-[200%] motion-translate-y-in-[-1%] motion-blur-in-[10px] motion-duration-[0.59s] motion-delay-[0.16s] motion-duration-[0.60s]/translate motion-delay-[0.05s]/translate":"hidden"} lg:block rounded-sm right-0 w-[80%]  `}>
                         <div className='flex justify-between items-center lg:hidden'>
                             <span>Logo</span>
                             <span><IoMdClose size={45} onClick={()=>setshow(false)}/></span>
