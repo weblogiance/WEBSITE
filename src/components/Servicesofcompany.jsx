@@ -15,7 +15,7 @@ const Servicesofcompany = () => {
                            
                            serviceInfo.map((data)=>(
                               <div onClick={()=>setview(data.header)}>
-                                  <div className={`flex flex-col w-full text-center items-center font-serif justify-center mx-auto  ${ view == data.header ? " bg-[#29adfa] text-white motion-preset-confetti motion-duration-500" : ""} bg-white text-black shadow-md border  p-2 rounded-md    transition-all duration-300 gap-y-3`} >
+                                  <div className={`flex flex-col w-full text-center items-center font-serif justify-center mx-auto  ${ view == data.header ? " bg-[#378abb] text-white motion-preset-confetti motion-duration-500" : ""} bg-white text-black shadow-md border  p-2 rounded-md    transition-all duration-300 gap-y-3`} >
                                     <span><data.icon size={45} /></span>
                                     <h1 className=' text-xl w-full font-medium tracking-wide'>{data.header}</h1>
                                   </div>
